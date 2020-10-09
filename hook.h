@@ -10,12 +10,11 @@
 #define USE_FENTRY_OFFSET 0
 
 struct ftrace_hook {
-	const char *name;
-	void *function;
-	void *original;
-
-	unsigned long address;
-	struct ftrace_ops ops;
+    const char *name;
+    void *function;
+    void *original;
+    unsigned long address;
+    struct ftrace_ops ops;
 };
 
 

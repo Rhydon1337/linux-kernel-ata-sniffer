@@ -8,7 +8,7 @@ The compiled kernel options must include: CONFIG_KALLSYMS, CONFIG_HAVE_DYNAMIC_F
 
 ## How it works
 
-I started to explore the kernel in order to understand which part of the Linux ATA driver is responsible for sending the ATA command.
+I started to explore the kernel sources in order to understand which part of the Linux ATA driver is responsible for sending the ATA command.
 
 I found that the unexported function ata_qc_issue is the one that actually sends the commands.
 

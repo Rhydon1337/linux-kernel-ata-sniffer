@@ -28,7 +28,9 @@ If someone inside the kernel will send the command directly without using libATA
 
 ## Usage
 cd linux-kernel-ata-sniffer
+
 make
+
 insmod ata_sniffer.ko
 
 DONE!!!

@@ -23,7 +23,7 @@ Calling ftrace from every function is, of course, pretty costly. This is why the
 ### Note:
 You must compile the kernel with the needed options for ftrace. This will tell the compiler to insert at the beginning of every function a call to mcount() (or __fentry()__ when a newer compiler is in use).
 
-## Limitation
+## Limitations
 If someone inside the kernel will send the command directly without using libATA the kernel module won't intercept it.
 
 ## Usage
